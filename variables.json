@@ -1,0 +1,19 @@
+{"title": "library tutorial",
+"nav" : [{"title": "author"},{"title": "books"},{"title": "date"}],
+
+"books": [{
+  "title": "hello",
+  "author": "who knows",
+  "published": "some day soon"
+},
+{
+  "title": "hello2",
+  "author": "who knows2",
+  "published": "some day soon2"
+},
+{
+  "title": "hello3",
+  "author": "who knows3",
+  "published": "some day soon3"
+}
+]}

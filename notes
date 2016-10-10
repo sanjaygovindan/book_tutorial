@@ -1,0 +1,5 @@
+npm start controlled by app.js start feature.
+app.use middleware used before app.get
+
+
+JSON object called by name from the object that is passed into nunjuks

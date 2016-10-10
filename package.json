@@ -1,0 +1,33 @@
+{
+  "name": "book_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "nodemon": "^1.11.0",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express-nunjucks": "^2.0.1",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.10",
+    "nunjucks": "^2.5.2"
+  }
+}
