@@ -4,7 +4,7 @@ var data = require('../variables.json');
 var mongo = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/libraryapp';
 var nav = {nav : [{title: 'author'},{title: 'books'},{title: 'date'}]};
-var objectID = require('mongodb').ObjectID;
+var ObjectID = require('mongodb').ObjectID;
 
 router.route('/books')
 .get(function (req, res){
@@ -27,7 +27,7 @@ db.close();
 
 router.route('/book')
     .get(function(req, res) {
-        var id = new objectID(req.query.id);
+        var id = new ObjectID(req.query.id);
         mongo.connect(url, function(err, db) {
             var collection = db.collection('books');
             collection.findOne({
